@@ -65,7 +65,7 @@ def demonstration():
 	print("\nTo decrypt a string, allow X to equal the encrypted value of a given character. Then use the following formula:")
 	print("DecryptedASCII = (X ^ PrivateKey) % ModulusValue")
 	print("\nWhen decrypted, the output should be the same as your initial input!")
-	print("%s is your original string!" % (wire.decrypt(encryptedCharacters)))
+	print("'%s' is your original string!" % (wire.decrypt(encryptedCharacters)))
 	
 main()
 	
